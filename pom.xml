@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.dedalus</groupId>
+  <artifactId>prescriptionmodel</artifactId>
+  <version>0.2.6</version>
+  <name>PrescriptionModel</name>
+  <description>Model containing prescription Objects</description>
+  <distributionManagement>
+    <repository>
+      <id>kie-release</id>
+      <name>24ba5fdf3ae0-releases</name>
+      <url>http://ci-assetrepo.noemalife.loc/artifactory/kie-release</url>
+    </repository>
+    <snapshotRepository>
+      <id>kie-snapshot</id>
+      <name>24ba5fdf3ae0-snapshots</name>
+      <url>http://ci-assetrepo.noemalife.loc/artifactory/kie-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>kie-release</id>
+      <name>Kie Release</name>
+      <url>http://ci-assetrepo.noemalife.loc/artifactory/kie-release/</url>
+    </repository>
+    <repository>
+      <id>kie-snapshot</id>
+      <name>Kie Snapshot</name>
+      <url>http://ci-assetrepo.noemalife.loc/artifactory/kie-snapshot/</url>
+    </repository>
+  </repositories>
+</project>
